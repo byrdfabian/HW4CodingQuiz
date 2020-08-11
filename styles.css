@@ -1,0 +1,28 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    Justify-content: center;
+    align-items: center;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: 1, auto;
+    gap: 5px;
+    margin: 5px 0;
+
+}
+
+.btn {
+    border: 1px black;
+    background-color: aqua;
+    gap: 10px;
+
+}
